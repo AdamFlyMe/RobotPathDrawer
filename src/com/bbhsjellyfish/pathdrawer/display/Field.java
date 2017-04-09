@@ -26,9 +26,7 @@ public class Field extends JComponent {
 		trans.translate(-720, -720);
 		g.setTransform(trans);
 
-		g.setClip(0, 0, 1440, 1440);
-
-		FieldLayout.RESQ.paintField(g);
+		FieldLayout.VORTEX.paintField(g);
 	}
 
 }

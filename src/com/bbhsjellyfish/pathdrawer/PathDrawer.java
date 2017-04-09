@@ -492,10 +492,10 @@ public class PathDrawer extends JFrame {
 			f.drawLine(481, 481, 376, 376);
 
 			trans = new AffineTransform();
-			trans.translate(dx ? d : 0, dx ? 0 : d);
-			trans.scale(0.00145 * dim, 0.00145 * dim);
-			trans.translate(100, 100);
-			trans.rotate(-Math.PI / 4, 240, 240);
+			// trans.translate(dx ? d : 0, dx ? 0 : d);
+			// trans.scale(0.00145 * dim, 0.00145 * dim);
+			// trans.translate(100, 100);
+			// trans.rotate(-Math.PI / 4, 240, 240);
 
 			try {
 				inv = trans.createInverse();

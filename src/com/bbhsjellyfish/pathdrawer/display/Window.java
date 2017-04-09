@@ -9,6 +9,7 @@ public class Window extends JFrame {
 	private static final long serialVersionUID = 3264076406613458362L;
 
 	public Window() {
+		super("Autonomous Path Drawer");
 		this.setSize(640, 480);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setExtendedState(Frame.MAXIMIZED_BOTH);
